@@ -39,7 +39,7 @@ function Cadastro() {
         <Avatar
           sx={{
             margin: 1,
-            backgroundColor: "brown",
+            backgroundColor: "#964b00",
           }}
         >
           <AccountCircleOutlinedIcon />
@@ -94,7 +94,6 @@ function Cadastro() {
             name="name"
             margin="normal"
             type="text"
-            pattern="[A-Za-z]+"
             value={user.name}
             onChange={onChange}
           />
