@@ -7,7 +7,6 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined"
 import Container from "@mui/material/Container"
 import Typograph from "@mui/material/Typography"
 import { useState } from "react";
-import { Password } from "@mui/icons-material";
 
 
 function Login(){
@@ -45,12 +44,12 @@ function Login(){
                 <Typograph component="h1" variant="h5">
                     vio
                 </Typograph>
-                <Box component="form" sx={{mt:1}} onSubmit={handleSubmit} noValidate>
+                <Box component="form" sx={{mt:1}} onSubmit={handleSubmit} >
                     <TextField
                     required
                     fullWidth
                     id="email"
-                    label="Email"
+                    label="E-mail"
                     name="email"
                     margin="normal"
                     value={user.email}
